@@ -12,7 +12,7 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		BCF22E08B332A3405E6F8ACC /* Pods_BTestDemo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48DF987A38ACF704F92AA22 /* Pods_BTestDemo_Example.framework */; };
+		EFC017F25C713EFBF869A276 /* libPods-BTestDemo_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 618EDE0BFA5CF2B2033C4879 /* libPods-BTestDemo_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +36,11 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* BTestDemo_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTestDemo_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		618EDE0BFA5CF2B2033C4879 /* libPods-BTestDemo_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BTestDemo_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FBB5FA283069D166B135F70 /* BTestDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BTestDemo.podspec; path = ../BTestDemo.podspec; sourceTree = "<group>"; };
 		8114BDC65608E2D3EEA71CB5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E2786F0A550B2400137B03FC /* Pods-BTestDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTestDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-BTestDemo_Example/Pods-BTestDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E280F4887C88CA1BB0A39758 /* Pods-BTestDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTestDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-BTestDemo_Example/Pods-BTestDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F48DF987A38ACF704F92AA22 /* Pods_BTestDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTestDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCF22E08B332A3405E6F8ACC /* Pods_BTestDemo_Example.framework in Frameworks */,
+				EFC017F25C713EFBF869A276 /* libPods-BTestDemo_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +74,7 @@
 		0C580A36B987A30650B499B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F48DF987A38ACF704F92AA22 /* Pods_BTestDemo_Example.framework */,
+				618EDE0BFA5CF2B2033C4879 /* libPods-BTestDemo_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,7 +159,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				07C943F72289C173B00FA690 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,26 +249,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		07C943F72289C173B00FA690 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BTestDemo_Example/Pods-BTestDemo_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/BTestDemo/BTestDemo.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BTestDemo.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BTestDemo_Example/Pods-BTestDemo_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B3293CDAF757C8C8C57B732F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

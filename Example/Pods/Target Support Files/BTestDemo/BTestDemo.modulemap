@@ -1,4 +1,4 @@
-framework module BTestDemo {
+module BTestDemo {
   umbrella header "BTestDemo-umbrella.h"
 
   export *

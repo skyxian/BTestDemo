@@ -1,4 +1,4 @@
-framework module Pods_BTestDemo_Example {
+module Pods_BTestDemo_Example {
   umbrella header "Pods-BTestDemo_Example-umbrella.h"
 
   export *
