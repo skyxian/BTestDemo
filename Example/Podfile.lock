@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - BTestDemo (0.1.0):
+  - BTestDemo (0.1.1):
     - AFNetworking
 
 DEPENDENCIES:
@@ -30,7 +30,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  BTestDemo: b8449cfa4a6b1063c37bd47be3d86f44592f97a9
+  BTestDemo: 3d6b3240d9e6a332ff376e1fd88d568e6754a0d3
 
 PODFILE CHECKSUM: f7f9947433550859272d2de986403102eccd6647
 

@@ -1,6 +1,6 @@
 {
   "name": "BTestDemo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of BTestDemo.",
   "description": "测试",
   "homepage": "https://github.com/skyxian/BTestDemo",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/skyxian/BTestDemo.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "swift_versions": "5.1",
   "platforms": {
