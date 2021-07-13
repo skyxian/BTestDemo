@@ -7,11 +7,19 @@
 //
 
 import UIKit
+import BTestDemo
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let str = ""
+        
+        if String.isEmpty(str) {
+            
+        }
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

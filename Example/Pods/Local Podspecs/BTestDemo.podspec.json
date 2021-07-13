@@ -1,0 +1,29 @@
+{
+  "name": "BTestDemo",
+  "version": "0.1.0",
+  "summary": "A short description of BTestDemo.",
+  "description": "测试",
+  "homepage": "https://github.com/skyxian/BTestDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "咸宝坤": "xianbaokun@miliantech.com"
+  },
+  "source": {
+    "git": "https://github.com/skyxian/BTestDemo.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.1",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "BTestDemo/Classes/**/*.{swift,h}",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  },
+  "swift_version": "5.1"
+}

@@ -1,0 +1,37 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - BTestDemo (0.1.0):
+    - AFNetworking
+
+DEPENDENCIES:
+  - BTestDemo (from `../BTestDemo.podspec`)
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  BTestDemo:
+    :path: "../BTestDemo.podspec"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  BTestDemo: b8449cfa4a6b1063c37bd47be3d86f44592f97a9
+
+PODFILE CHECKSUM: ad8a78f7f11964e526eb2bd52359922f9148b6ff
+
+COCOAPODS: 1.10.1

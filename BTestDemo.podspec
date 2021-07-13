@@ -18,19 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+测试
                        DESC
 
-  s.homepage         = 'https://github.com/咸宝坤/BTestDemo'
+  s.homepage         = 'https://github.com/skyxian/BTestDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '咸宝坤' => 'xianbaokun@miliantech.com' }
-  s.source           = { :git => 'https://github.com/咸宝坤/BTestDemo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/skyxian/BTestDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.swift_version = '5.1'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'BTestDemo/Classes/**/*'
+  s.source_files = 'BTestDemo/Classes/**/*.{swift,h}'
   
   # s.resource_bundles = {
   #   'BTestDemo' => ['BTestDemo/Assets/*.png']
@@ -38,5 +39,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking'
 end
